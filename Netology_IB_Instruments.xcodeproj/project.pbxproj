@@ -15,6 +15,8 @@
 		DDB25A6D2927BD8F00C06837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB25A6B2927BD8F00C06837 /* LaunchScreen.storyboard */; };
 		DDB25A752927BDB000C06837 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB25A742927BDB000C06837 /* ProfileView.xib */; };
 		DDB25A7B2927C63C00C06837 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25A7A2927C63C00C06837 /* ProfileView.swift */; };
+		DDB25A7D2927CFB500C06837 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB25A7C2927CFB500C06837 /* Profile.storyboard */; };
+		DDB25A7F2927D0C300C06837 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25A7E2927D0C300C06837 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DDB25A6E2927BD8F00C06837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB25A742927BDB000C06837 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		DDB25A7A2927C63C00C06837 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DDB25A7C2927CFB500C06837 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DDB25A7E2927D0C300C06837 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 				DDB25A622927BD8E00C06837 /* SceneDelegate.swift */,
 				DDB25A642927BD8E00C06837 /* ViewController.swift */,
 				DDB25A7A2927C63C00C06837 /* ProfileView.swift */,
+				DDB25A7C2927CFB500C06837 /* Profile.storyboard */,
 				DDB25A662927BD8E00C06837 /* Main.storyboard */,
 				DDB25A692927BD8F00C06837 /* Assets.xcassets */,
 				DDB25A6B2927BD8F00C06837 /* LaunchScreen.storyboard */,
 				DDB25A6E2927BD8F00C06837 /* Info.plist */,
 				DDB25A742927BDB000C06837 /* ProfileView.xib */,
+				DDB25A7E2927D0C300C06837 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			files = (
 				DDB25A752927BDB000C06837 /* ProfileView.xib in Resources */,
 				DDB25A6D2927BD8F00C06837 /* LaunchScreen.storyboard in Resources */,
+				DDB25A7D2927CFB500C06837 /* Profile.storyboard in Resources */,
 				DDB25A6A2927BD8F00C06837 /* Assets.xcassets in Resources */,
 				DDB25A682927BD8E00C06837 /* Main.storyboard in Resources */,
 			);
@@ -147,6 +154,7 @@
 			files = (
 				DDB25A7B2927C63C00C06837 /* ProfileView.swift in Sources */,
 				DDB25A652927BD8E00C06837 /* ViewController.swift in Sources */,
+				DDB25A7F2927D0C300C06837 /* ProfileViewController.swift in Sources */,
 				DDB25A612927BD8E00C06837 /* AppDelegate.swift in Sources */,
 				DDB25A632927BD8E00C06837 /* SceneDelegate.swift in Sources */,
 			);
